@@ -1,0 +1,16 @@
+package Session08_OOP.Exercise02;
+
+public class Main {
+    public static void main(String[] args) {
+//        Khởi tạo Car và Bike
+        Vehicle car = new Car("Toyota", 120);
+        Vehicle bike = new Bike("Yamaha", 80);
+
+//        gọi các phương thức
+        car.start();
+        car.displayInfo();
+
+        bike.start();
+        bike.displayInfo();
+    }
+}
